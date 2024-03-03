@@ -1,4 +1,4 @@
-print("-" * 4, "Calculadora Estranha", "-" * 4)
+print("-" * 4, "Calculadora", "-" * 4)
 print()
 primeiro_valor = float(input("Digite o primeiro valor:"))
 operacao = input(
