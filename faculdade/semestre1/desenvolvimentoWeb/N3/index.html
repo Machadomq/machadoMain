@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="menu-icone" onclick="toggleMenu()">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+    </div>
+    <div id="nav" class="tamanhonav">
+        <a href="javascript:void(0)" class="closebtn" onclick="toggleMenu()">&times;</a>
+        <a href="#inicio">Inicio</a>
+        <a href="#sobremim">Sobre mim</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+    </div>
+    
+    <div id="inicio" class="inicio">
+        <div><img class="pintura" src="imagens/pexels-steve-1109352.jpg" alt=""></div>
+        <div class="texto-inicio">
+            <h1>Gabriel Machado</h1>
+            <p>Atual Tecnico Quimico e<br>Estudante de Engenharia de Software</p>
+            <button onclick="location.href='#sobremim'" class="sobremim">Saiba mais</button>
+        </div>
+    </div>
+
+    <div>
+        <h1 id="projetos" class="tit">Projetos</h1>
+        <div class="faculdade">
+            <h2 class="faculdade">Desenvolvimento de sites e arduinos </h2>
+            <div class="alinhar">
+                <p>Ao terminar o ensino medio tive tempo para me dedicar ao estudos realcionados a programação dentre estes conhecimentos o desenvolvimento web foi um dos principais conteudos abordados assim projetos como o de login situado a esquerda, tecnicas como media queries, responsividade, interatividade por JavaScript e otimização do site. Voltado ao backend desenvolvi atraves da linguem python, um manipulador de arquivo xlsx para cadastro de produtos e clientes.
+                </p>
+                <img class="foto" src="imagens/login.png" alt="">
+            </div>
+
+           
+            <div id="bloco" class="fundobranco">
+                    <img class="blocofoto" src="imagens/tinker.png" alt="">
+                    <p>Durante curso foram desenvolvidos diversas simulações em arduinos, utilizando plataformas como tinkercad e arduinos físicos, como semáforos, manilpulação de motores cc/dc, entre outros, visando o conhecimento dos componentes e a logica por trás de itens basicos do cotidiano. </p>
+                </div>
+
+            <h2 class="faculdade">Pesquisa Científica</h2>
+            <div class="alinhar">
+                <p >No instituto federal de Santa Catarina realizei projetos como por exemplo a sintese de um biocurativo a base de kombucha onde o projeto buscava criar um polimero curativo que não impactava o meio ambiente de forma negativa. O objetivo principal do projeto obteve um resultado satisfatorio e positivo. Comprovando sua sustentabilidade em meio a ambientes naturais graças a testes em campo e em ambientes controlados verificando o aumento de gases provenientes de microrganismos correlacionando ao aumento dos mesmos, logo utilizado como fonte de energia em forma de glicose.</p>
+                <img class="foto" src="imagens/image.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div>
+        <h1 id="sobremim" class="tit"> Sobre mim</h1>
+        <div id="margem" class="alinhar">
+            <div class="faculdade">
+                <p>Nascido no Paraná em janeiro de 2004, mudei-me para Santa Catarina em 2008 e estabeleci-me em Jaraguá do Sul, onde resido e estudo desde então. Minha jornada acadêmica teve um marco significativo no Instituto Federal de Santa Catarina (IFSC), onde aprimorei minhas habilidades no curso técnico em Química. Essa formação me abriu portas para o meu emprego atual, atuando na área química onde produzo cosmeticos para uso pessoal em geral. No entanto, minha verdadeira paixão e escolha de carreira estão na área de tecnologia, onde descobri um interesse genuíno e uma profunda admiração. Agora, como estudante de Engenharia de Software na Universidade Católica de Santa Catarina, estou dedicando-me ao desenvolvimento e aprimoramento das minhas habilidades nesse campo promissor com o sonho de obter a liberdade geografica.</p>
+                <img class="foto" src="imagens/IMG_0008.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div>
+        <h1 id="contato" class="tit">Contato</h1>
+        <div class="icones">
+            <a href="https://www.linkedin.com/in/gabriel-machadomq/" target="_blank"><img class="icone" src="imagens/104493_linkedin_icon.png" alt=""></a>
+            <a href="https://www.instagram.com/machadogab?igsh=MTFtNGNxMjJheHB1bA%3D%3D&utm_source=qr" target="_blank"><img class="icone" src="imagens/1161953_instagram_icon.png" alt=""></a>
+            <a href="https://github.com/Machadomq" target="_blank"><img class="icone" src="imagens/291716_github_logo_social network_social_icon.png" alt=""></a>
+            <a href="mailto:gbrielmq1213@gmail.com"><img class="icone" src="imagens/6214722_email_envelope_gmail_letter_logo_icon.png" alt=""></a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+

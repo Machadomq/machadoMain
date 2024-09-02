@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    font-family: "Raleway", sans-serif;
+}
+html{
+    background-color: #615c5c;
+    scroll-behavior: smooth;
+}
+body{
+    display: block;
+    max-width: 800px;
+    background-color: #DFE0E2;
+    margin: auto;
+    border: 2px solid black;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color:#1B1B1E;
+}
+
+#minhafoto{
+    display: inline-flex;
+    border-radius: 50%;
+    width: 200px;
+    border: 3px solid #585858;
+}
+
+#minhafoto:hover{
+    border-color: #FAA916;
+}
+#nome{
+    display:inline-flex;
+    font-size: 1.5em;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: "Raleway", sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #AAAAAA;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+nav> a{
+    background-color: black;
+    padding: 7px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    min-width: 150px;
+    margin: auto;
+    text-align: center;
+    border: 2px solid black;
+    transition: width 1s ease 0s;
+    transition: hegth 1s ease 0s;
+}
+
+nav >a:hover{
+    background-color: #FAA916;
+    color: black;
+
+}
+#academicos{
+display: flex;
+justify-content: baseline;
+margin: 50px 0px 15px 11%;
+
+}
+#pessoais{
+    display: flex;
+    justify-content: end;
+    margin: 70px 12% 15px 0px;
+}
+.esquerda{
+    display: flex;
+    justify-content: space-between;
+    margin: 0% 5% 0% 5%;
+}
+p{
+    background-color: #FAA916;
+    max-width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.direita{
+    display: flex;
+    justify-content: space-between;
+    margin: 0% 5% 0% 5%;
+}
+
+#historia{
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+    
+}
+
+.centro{
+    display: flex;
+    justify-content: center;
+    margin: 0px 30px 0px 30px;
+}
+.centro>p{
+    max-width: none;
+}
+
+footer{
+    background-color: #FAA916;
+    justify-content: space-around;
+    display: flex;
+    margin-top: 50px;
+}
+.icone{
+width: 40px;
+
+}
+
+div{
+    display: flex;
+
+}
+.fotos{
+    display:flex;
+    border-radius: 10px;
+    width: 320px;
+
+}
+

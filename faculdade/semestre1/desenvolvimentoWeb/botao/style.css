@@ -1,0 +1,29 @@
+
+body{
+   background: linear-gradient(to right, rgb(0, 63, 131), rgb(0, 38, 84));
+}
+
+button{
+border: 2px solid rgb(128, 128, 128);
+    border-radius: 20px;
+    background: linear-gradient(to right, rgba(0, 11, 86, 0.937), rgba(0, 37, 98, 0.48));
+    color: rgba(255, 255, 255, 0.873);
+    width: 200px;
+    height: 75px;
+    font-size: 30px;
+
+}
+#inativo{
+    color: rgba(255, 255, 255, 0.501);
+    
+}
+
+#selecionado{
+    background:linear-gradient(120deg, rgba(0, 255, 251, 0.764), rgba(144, 238, 144, 0.861));
+    border: none;
+}
+
+#high {
+    border-image: linear-gradient(to right, rgba(0, 255, 251, 0.764), rgba(144, 238, 144, 0.861)) 1 ;
+    
+}

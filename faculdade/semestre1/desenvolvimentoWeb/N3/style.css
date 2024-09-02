@@ -1,0 +1,225 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    padding: 0%;
+    margin:0%;
+}
+
+body {
+    font-family:"QuickSand", sans-serif;
+    background-color: black;
+}
+
+.menu-icone {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.menu-icone div {
+    width: 100%;
+    height: 4px;
+    background-color: rgba(255, 255, 255, 0.993);
+    transition: 0.4s;
+}
+
+.tamanhonav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.tamanhonav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+}
+
+.tamanhonav a:hover {
+    color:rgba(0, 76, 255, 0.993);
+}
+
+.tamanhonav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.change .bar1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+.pintura{
+    width: 100%;
+    
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px 15px 0px 0px;
+}
+.texto-inicio{
+    text-align: center;
+    background-color: white;
+    border-radius: 0px 0px 15px 15px;
+    padding: 5%;
+}   
+
+.inicio{
+    width: 50vw;
+    font-family: "QuickSand", sans-serif;
+    font-size: 1em;
+    margin: auto;
+    margin-top: 20%;
+}
+
+p{
+    padding: 3%;
+}
+.sobremim{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 5% 10%;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background-color 0.5s ease 0s,  padding 0.5s ease 0s, color 0.5s ease 0s;
+
+}
+
+.sobremim:hover{
+  background-color: rgb(0, 0, 0);
+    padding: 7% 14%;
+    color: white;
+}
+
+.tit{
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 10%;
+    text-decoration: underline;
+    text-decoration-color: rgba(0, 76, 255, 0.993);
+    text-underline-offset: 10px;
+
+}
+.faculdade {
+    color: white;
+    font-weight: 400;
+    margin-top: 50px;
+    text-align: center;
+}
+.faculdade>p{
+    text-align: justify;
+    margin: 5%;
+    line-height: 20px;
+}
+.fundobranco{
+    background-color: rgba(255, 255, 255, 0.065);
+    border-radius: 20px;
+}
+
+.foto{
+    
+    height: 30vh;
+    border-radius: 3px;
+}
+#bloco{
+    width: 70vw;
+    margin: auto ;
+    margin-top: 10%;
+}
+.blocofoto{
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.icones{
+margin-top: 50px;
+margin-bottom: 50px;
+display: flex;
+justify-content: center;
+gap: 10%;
+}
+
+.icone{
+    width: 10vw;
+}
+
+@media (min-aspect-ratio: 1/1) {
+
+    .inicio{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    }
+
+    .pintura{
+        height: 100%;
+        object-fit: cover;
+        border-radius:20px 0px 0px 20px;
+        max-width: 35vh;
+    }
+
+    .texto-inicio{
+        border-radius: 0px 20px 20px 0px;
+    }
+    .foto{margin: auto;}
+    .alinhar{
+        display: flex;
+        margin-inline: 20vw;
+        text-align: justify;
+        margin-top: 20px;
+    }
+    .blocofoto{
+        width: 35%;
+        border-radius: 20px 0px 0px 20px;
+    }
+    .fundobranco{
+        display: flex;
+    }
+    .fundobranco>p{
+        margin: auto;
+    }
+    .tit{
+        margin-top: 5%;
+    }
+.icones>a>img{
+    width: 5vw;
+}
+}

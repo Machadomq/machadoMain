@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+
+:root{
+    --cor1:#262125;
+    --cor2: #40393E;
+    --cor3:#D98B48;
+    --cor4:#D9AC84;
+    --cor5:#A6450D;
+}
+
+body{
+    font-family: 'Playfair Display', serif;
+    margin: 0%;
+    background-color: #000000;
+    min-height: 100vh;
+}
+
+
+
+h1{
+
+    margin: 0%;
+    padding-top: 20px;
+    font-variant:small-caps;
+    font-weight: 400;
+    font-size: 3em;
+    margin-left: 10%;
+}
+
+
+section{
+    background-color:rgba(255, 255, 255, 0.922);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 17px;
+    box-shadow: inset 0px 0px 10px 1px rgba(0, 0, 0, 0.488);
+}
+
+p{
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: justify;
+    
+}
+
+   
+
+#img1{
+    background-image: url('https://img.freepik.com/premium-vector/coffee-beans-seamless-pattern-vector-background-repeated-dark-brown-texture-cafe-menu_554888-2322.jpg');
+    
+    background-size: 15%;
+    background-attachment: fixed;
+    
+}
+
+#img2{
+    background-image: url('https://img.freepik.com/free-photo/top-view-delicious-coffee-cup_23-2150691435.jpg?t=st=1701216674~exp=1701220274~hmac=f55666d7ea5d37992a18cfdaf846bc7589ec89832fbf5caa4ef95c32c7d847cd&w=2000');
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: 100% ;
+    background-repeat: repeat-y;
+    
+}
+#img2>p{
+    max-width: 97vh;
+}
+.foto>p{
+    background-color: rgba(0, 0, 0, 0.552);
+    color: white;
+    border-radius: 10px;
+    padding: 2%;
+
+}
+footer{
+    background-color: #262125;
+    color: white;
+    text-align: center;
+    padding: 1%;
+}
+
+.foto{
+    min-height: 200px;
+}
+
+footer>a{
+    color:#D98B48;
+    text-decoration: none;
+}
+
+
+a:hover{
+    color: #A6450D;
+}
+
+
+::-webkit-scrollbar {
+    width: 12px; 
+}
+
+
+::-webkit-scrollbar-thumb {
+    background-color:rgb(65, 37, 1); 
+}
+
+
+::-webkit-scrollbar-track {
+    background-color: #262125; 
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #D98B48; 
+}
+
+h2{
+    margin-left: 15%;
+    color:rgb(93, 53, 0) ;
+}
+strong{
+    color:rgb(93, 53, 0) ;
+}
+
+.claro{
+    color: #D98B48;
+}
+.claro2{
+    color: white;
+}
