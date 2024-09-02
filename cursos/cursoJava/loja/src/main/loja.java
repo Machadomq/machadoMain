@@ -24,8 +24,20 @@ public class loja {
         System.out.print("Quantity in Stock:");
         product.quantity= sc.nextInt();
 
-        System.out.println(product);
-        
+        System.out.println("product data:"+product.toString());
+
+        System.out.println("Enter de number of products to be added in stock:");
+        int quantity = sc.nextInt();
+        product.addProducts(quantity);
+
+        System.out.println("Updated data: "+ product.toString());
+
+        System.out.println("Enter the number of products to be remove from stock:");
+        quantity = sc.nextInt();
+        product.removeProducts(quantity);
+
+        System.out.print("Updated data: "+ product.toString());
+
         sc.close();
     }
 }
