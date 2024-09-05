@@ -17,7 +17,7 @@ public class loja {
         System.out.println("Enter product data:");
         System.out.print("Name:");
         product.name = sc.nextLine();
-
+        
         System.out.print("Price:");
         product.price= sc.nextDouble();
 
