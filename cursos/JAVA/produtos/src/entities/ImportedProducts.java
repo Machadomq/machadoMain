@@ -1,7 +1,6 @@
 package entities;
 
-public class ImportedProducts extends Products{
-
+public class ImportedProducts extends Products {
 
 	private Double custumFee;
 
@@ -17,7 +16,14 @@ public class ImportedProducts extends Products{
 	public void setCustumFee(Double custumFee) {
 		this.custumFee = custumFee;
 	}
-	
-	
-	
+
+	public double totalPrice() {
+		return getPrice() + getCustumFee();
+	}
+
+	@Override
+	public String priceTag() {
+		return getName() + " $" + totalPrice() + " (customs fee:" + custumFee + ")";
+	}
+
 }
