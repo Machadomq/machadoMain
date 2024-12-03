@@ -8,19 +8,19 @@ public class ConexaoMySQL {
 	//Atributos de acesso ao banco de dados
 	
 	private String database = "concessionaria"; // Nome do Banco de Dados
-	private String usuario = "root"; //Nome do usuário de acesso
-	private String senha = "211004cd"; //Senha para acessar o Banco de Dados
+	private String usuario = "root"; //Nome do usuï¿½rio de acesso
+	private String senha = "1213"; //Senha para acessar o Banco de Dados
 	
-	// Url é o endereço do servidor MySQL
+	// Url ï¿½ o endereï¿½o do servidor MySQL
 	
 	private String url = "jdbc:mysql://localhost:3306/"+database;
 	
-	//Criar métodos 
+	//Criar mï¿½todos 
 	
 	public Connection conectar() throws ClassNotFoundException, SQLException {
 		//Carregar a API
 		Class.forName("com.mysql.cj.jdbc.Driver");
-		//Fazer a conexão
+		//Fazer a conexï¿½o
 		Connection conexao = DriverManager.getConnection(url, usuario, senha);
 		return conexao;
 	}

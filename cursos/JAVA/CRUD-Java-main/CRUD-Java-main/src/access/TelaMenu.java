@@ -14,7 +14,6 @@ import java.awt.FlowLayout;
 import java.awt.GridLayout;
 import java.awt.CardLayout;
 import javax.swing.SpringLayout;
-import net.miginfocom.swing.MigLayout;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;

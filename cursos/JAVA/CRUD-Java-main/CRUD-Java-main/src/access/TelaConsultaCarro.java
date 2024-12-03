@@ -61,10 +61,10 @@ public class TelaConsultaCarro extends JFrame {
 		tabelaCarro.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
 		tabelaCarro.setBounds(26, 30, 378, 200);
 		
-		//Navegação no JTable -> JScrollPane		
+		//Navegaï¿½ï¿½o no JTable -> JScrollPane		
 		JScrollPane scroll = new JScrollPane();
-		scroll.setBounds(26, 30, 378, 200); //medidas e posição iguais ao JTable
-		//Visualização do ScrollPane
+		scroll.setBounds(26, 30, 378, 200); //medidas e posiï¿½ï¿½o iguais ao JTable
+		//Visualizaï¿½ï¿½o do ScrollPane
 		scroll.setViewportView(tabelaCarro);
 		//Adiciona o scroll no JFrame(janela)
 		contentPane.add(scroll);
@@ -72,15 +72,15 @@ public class TelaConsultaCarro extends JFrame {
 		JButton btPesquisar = new JButton("Pesquisar");
 		btPesquisar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				//1º Dados da tabela Produto -> listar() -> ArrayList
+				//1ï¿½ Dados da tabela Produto -> listar() -> ArrayList
 				
 				//Criar um modelo de tabela -> JTable
 				DefaultTableModel modelo = new DefaultTableModel();
-				modelo.addColumn("Chassi"); //visualização
+				modelo.addColumn("Chassi"); 
 				modelo.addColumn("Marca");
 				modelo.addColumn("Modelo");
 				modelo.addColumn("Ano");
-				modelo.addColumn("Preço");
+				modelo.addColumn("Preco");
 				
 				
 				//Objeto para receber os filtros (WHERE)
@@ -109,7 +109,7 @@ public class TelaConsultaCarro extends JFrame {
 							
 							
 					});
-				} //fim for
+				} 
 				//Aplicar o modelo dentro do JTable:
 				tabelaCarro.setModel(modelo);
 			}

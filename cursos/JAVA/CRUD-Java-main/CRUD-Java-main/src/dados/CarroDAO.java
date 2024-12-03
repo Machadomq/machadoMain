@@ -20,7 +20,7 @@ public class CarroDAO {
 	
 		Connection con = conexao.conectar();
 	
-		//Definir dados que serão gravados na(s) tabela(s)
+		//Definir dados que serao gravados na(s) tabela(s)
 	
 		PreparedStatement comando = con.prepareStatement(sql);
 	
@@ -37,7 +37,7 @@ public class CarroDAO {
 				//Executar o comando SQL
 				comando.execute();
 	
-					//Fechar a conexão com o BD
+					//Fechar a conexao com o BD
 					con.close();
 	
 	}
@@ -48,7 +48,7 @@ public class CarroDAO {
 						+"chassi='?', marca='?', modelo='?', ano=?, preco=? "
 						+"where chassi like '?'";
 		
-		//Criar conexão com o BD
+		//Criar conexï¿½o com o BD
 		ConexaoMySQL conexao = new ConexaoMySQL();
 		
 		//Conectar ao BD
@@ -83,7 +83,7 @@ public class CarroDAO {
 				//Executar os comandos
 				comando.execute();
 				
-					//Fechar conexão
+					//Fechar conexao
 					con.close();
 	}
 	
@@ -92,7 +92,7 @@ public class CarroDAO {
 			String sql = "delete from carro "
 						+"where chassi like '?'";
 			
-			//Criar conexão com o BD
+			//Criar conexï¿½o com o BD
 			ConexaoMySQL conexao = new ConexaoMySQL();
 			
 			//Conectar ao BD
@@ -110,7 +110,7 @@ public class CarroDAO {
 				//Executar os comandos
 				comando.execute();
 				
-					//Fechar conexão
+					//Fechar conexï¿½o
 					con.close();
 	}
 	
@@ -121,7 +121,7 @@ public class CarroDAO {
 		String sql = "select chassi, marca, modelo, ano, preco "
 						+"from carro ";
 		
-		//Criar conexão com o BD
+		//Criar conexï¿½o com o BD
 		ConexaoMySQL conexao = new ConexaoMySQL();
 		//Conectar ao BD
 		Connection con = conexao.conectar();
@@ -132,7 +132,7 @@ public class CarroDAO {
 		//ResultSet -> conjunto de dados do Select
 		ResultSet rs = comando.executeQuery();
 		
-		//.next() -> próximo resultado do ResultSet
+		//.next() -> prï¿½ximo resultado do ResultSet
 		while(rs.next()) {
 				
 				Carro c1 = new Carro();
