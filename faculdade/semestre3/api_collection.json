@@ -1,0 +1,224 @@
+{
+    "info": {
+        "_postman_id": "<gerado-automaticamente>",
+        "name": "API Jogo Flask - PAC",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Players",
+            "item": [
+                {
+                    "name": "Criar Player",
+                    "request": {
+                        "method": "POST",
+                        "header": [
+                            {"key": "Content-Type", "value": "application/json"}
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\"name\": \"NovoJogador\"}"
+                        },
+                        "url": {
+                            "raw": "http://localhost:5000/api/players/",
+                            "protocol": "http",
+                            "host": ["localhost"],
+                            "port": "5000",
+                            "path": ["api", "players", ""]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "Listar Players",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "http://localhost:5000/api/players/",
+                            "protocol": "http",
+                            "host": ["localhost"],
+                            "port": "5000",
+                            "path": ["api", "players", ""]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "Obter Player por ID",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "http://localhost:5000/api/players/2",
+                            "protocol": "http",
+                            "host": ["localhost"],
+                            "port": "5000",
+                            "path": ["api", "players", "2"]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "Atualizar Player",
+                    "request": {
+                        "method": "PUT",
+                        "header": [
+                            {"key": "Content-Type", "value": "application/json"}
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\"name\": \"JogadorAtualizado\"}"
+                        },
+                        "url": {
+                            "raw": "http://localhost:5000/api/players/2",
+                            "protocol": "http",
+                            "host": ["localhost"],
+                            "port": "5000",
+                            "path": ["api", "players", "2"]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "Deletar Player",
+                    "request": {
+                        "method": "DELETE",
+                        "header": [],
+                        "url": {
+                            "raw": "http://localhost:5000/api/players/2",
+                            "protocol": "http",
+                            "host": ["localhost"],
+                            "port": "5000",
+                            "path": ["api", "players", "2"]
+                        }
+                    },
+                    "response": []
+                }
+            ]
+        },
+        {
+            "name": "Level Progress",
+            "item": [
+                 {
+                    "name": "Criar Progresso de Nível",
+                    "request": {
+                        "method": "POST",
+                        "header": [
+                            {"key": "Content-Type", "value": "application/json"}
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\"player_id\": 2, \"level\": 1, \"experience_points\": 50}"
+                        },
+                        "url": {
+                            "raw": "http://localhost:5000/api/level_progress/",
+                            "protocol": "http",
+                            "host": ["localhost"],
+                            "port": "5000",
+                            "path": ["api", "level_progress", ""]
+                        }
+                    },
+                    "response": []
+                },
+                 {
+                    "name": "Listar Progressos de Nível",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "http://localhost:5000/api/level_progress/",
+                            "protocol": "http",
+                            "host": ["localhost"],
+                            "port": "5000",
+                            "path": ["api", "level_progress", ""]
+                        }
+                    },
+                    "response": []
+                }
+                // Adicionar GET por ID, PUT, DELETE similar ao Player
+            ]
+        },
+        {
+            "name": "Game Progress",
+            "item": [
+                 {
+                    "name": "Criar Progresso de Jogo",
+                    "request": {
+                        "method": "POST",
+                        "header": [
+                            {"key": "Content-Type", "value": "application/json"}
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\"player_id\": 2, \"scenario_name\": \"Second Dungeon\", \"route_type\": \"secundária\", \"completion_time\": \"00:25:10\", \"game_mode\": \"difícil\", \"play_style\": \"coop\", \"save_state_data\": \"{\\\"checkpoint\\\": \\\"dungeon_boss_door\\\"}\"}"
+                        },
+                        "url": {
+                            "raw": "http://localhost:5000/api/game_progress/",
+                            "protocol": "http",
+                            "host": ["localhost"],
+                            "port": "5000",
+                            "path": ["api", "game_progress", ""]
+                        }
+                    },
+                    "response": []
+                }
+                // Adicionar GET, PUT, DELETE similar ao Player
+            ]
+        },
+        {
+            "name": "Boss Challenges",
+            "item": [
+                 {
+                    "name": "Criar Registro de Desafio de Boss",
+                    "request": {
+                        "method": "POST",
+                        "header": [
+                            {"key": "Content-Type", "value": "application/json"}
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\"player_id\": 2, \"boss_name\": \"Dragon Lord\", \"attempts\": 5, \"play_style\": \"coop\", \"points_gained\": 500, \"challenge_time\": \"00:12:00\"}"
+                        },
+                        "url": {
+                            "raw": "http://localhost:5000/api/boss_challenges/",
+                            "protocol": "http",
+                            "host": ["localhost"],
+                            "port": "5000",
+                            "path": ["api", "boss_challenges", ""]
+                        }
+                    },
+                    "response": []
+                }
+                // Adicionar GET, PUT, DELETE similar ao Player
+            ]
+        },
+        {
+            "name": "Additional Data",
+            "item": [
+                 {
+                    "name": "Criar Dado Adicional",
+                    "request": {
+                        "method": "POST",
+                        "header": [
+                            {"key": "Content-Type", "value": "application/json"}
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\"player_id\": 2, \"data_type\": \"Milestone\", \"key\": \"ReachedLevel10\", \"value\": \"true\"}"
+                        },
+                        "url": {
+                            "raw": "http://localhost:5000/api/additional_data/",
+                            "protocol": "http",
+                            "host": ["localhost"],
+                            "port": "5000",
+                            "path": ["api", "additional_data", ""]
+                        }
+                    },
+                    "response": []
+                }
+                // Adicionar GET, PUT, DELETE similar ao Player
+            ]
+        }
+    ]
+}
