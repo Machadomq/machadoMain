@@ -1,0 +1,145 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2025-06-22T00:00:00.000Z",
+  "__export_source": "insomnia.desktop.app:v2023.5.8",
+  "resources": [
+    {
+      "_id": "req_register",
+      "name": "1. Registrar Usuario",
+      "description": "Criar uma nova conta de usuario",
+      "url": "http://localhost:5000/api/register",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"username\": \"jogador1\",\n\t\"password\": \"minhasenha123\"\n}"
+      },
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ]
+    },
+    {
+      "_id": "req_login",
+      "name": "2. Login Usuario",
+      "description": "Fazer login e obter token JWT",
+      "url": "http://localhost:5000/api/login",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"username\": \"jogador1\",\n\t\"password\": \"minhasenha123\"\n}"
+      },
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ]
+    },
+    {
+      "_id": "req_progress_fase1",
+      "name": "3. Completar Fase 1",
+      "description": "Marcar fase 1 como completa e ganhar conquistas",
+      "url": "http://localhost:5000/api/progress",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"stage_name\": \"fase1\"\n}"
+      },
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "name": "Authorization",
+          "value": "Bearer SEU_TOKEN_AQUI"
+        }
+      ]
+    },
+    {
+      "_id": "req_progress_fase2",
+      "name": "4. Completar Fase 2",
+      "description": "Marcar fase 2 como completa e ganhar mais conquistas",
+      "url": "http://localhost:5000/api/progress",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"stage_name\": \"fase2\"\n}"
+      },
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "name": "Authorization",
+          "value": "Bearer SEU_TOKEN_AQUI"
+        }
+      ]
+    },
+    {
+      "_id": "req_user_achievements",
+      "name": "5. Ver Conquistas do Usuario",
+      "description": "Listar todas as conquistas de um usuario",
+      "url": "http://localhost:5000/api/achievements/1",
+      "method": "GET",
+      "headers": [
+        {
+          "name": "Authorization",
+          "value": "Bearer SEU_TOKEN_AQUI"
+        }
+      ]
+    },
+    {
+      "_id": "req_all_achievements",
+      "name": "6. Listar Todas Conquistas",
+      "description": "Ver todas as conquistas disponiveis no jogo",
+      "url": "http://localhost:5000/api/achievements",
+      "method": "GET",
+      "headers": [
+        {
+          "name": "Authorization",
+          "value": "Bearer SEU_TOKEN_AQUI"
+        }
+      ]
+    },
+    {
+      "_id": "req_user_stats",
+      "name": "7. Estatisticas do Usuario",
+      "description": "Ver estatisticas detalhadas de progresso",
+      "url": "http://localhost:5000/api/user/stats/1",
+      "method": "GET",
+      "headers": [
+        {
+          "name": "Authorization",
+          "value": "Bearer SEU_TOKEN_AQUI"
+        }
+      ]
+    },
+    {
+      "_id": "req_leaderboard",
+      "name": "8. Ranking de Jogadores",
+      "description": "Ver os 10 melhores jogadores",
+      "url": "http://localhost:5000/api/leaderboard",
+      "method": "GET",
+      "headers": [
+        {
+          "name": "Authorization",
+          "value": "Bearer SEU_TOKEN_AQUI"
+        }
+      ]
+    }
+  ],
+  "environments": [
+    {
+      "_id": "env_base",
+      "name": "Base Environment",
+      "data": {
+        "base_url": "http://localhost:5000"
+      }
+    }
+  ]
+}
