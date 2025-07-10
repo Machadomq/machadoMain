@@ -1,0 +1,120 @@
+# Page snapshot
+
+```yaml
+- heading "🧑‍💻 Sistema CRUD - Gerenciamento de Usuários" [level=1]
+- paragraph: Cadastre, edite, visualize e exclua usuários
+- heading "📝 Cadastrar Novo Usuário" [level=2]
+- text: "Nome Completo:"
+- textbox "Nome Completo:"
+- text: "E-mail:"
+- textbox "E-mail:"
+- text: "Idade:"
+- spinbutton "Idade:"
+- button "Atualizar Usuário"
+- heading "👥 Usuários Cadastrados" [level=2]
+- heading "👤 João Silva" [level=3]
+- paragraph:
+  - text: 📧
+  - strong: "Email:"
+  - text: joao@email.com
+- paragraph:
+  - text: 🎂
+  - strong: "Idade:"
+  - text: 30 anos
+- paragraph:
+  - text: 🆔
+  - strong: "ID:"
+  - text: "1"
+- button "✏️ Editar"
+- button "🗑️ Excluir"
+- heading "👤 Maria Santos" [level=3]
+- paragraph:
+  - text: 📧
+  - strong: "Email:"
+  - text: maria@email.com
+- paragraph:
+  - text: 🎂
+  - strong: "Idade:"
+  - text: 25 anos
+- paragraph:
+  - text: 🆔
+  - strong: "ID:"
+  - text: "2"
+- button "✏️ Editar"
+- button "🗑️ Excluir"
+- heading "👤 Usuário Editado" [level=3]
+- paragraph:
+  - text: 📧
+  - strong: "Email:"
+  - text: editado.1751932723589@email.com
+- paragraph:
+  - text: 🎂
+  - strong: "Idade:"
+  - text: 35 anos
+- paragraph:
+  - text: 🆔
+  - strong: "ID:"
+  - text: e3010568-085d-49a6-a221-e0f8e763bad3
+- button "✏️ Editar"
+- button "🗑️ Excluir"
+- heading "👤 João Teste" [level=3]
+- paragraph:
+  - text: 📧
+  - strong: "Email:"
+  - text: joao.teste.1751932723588@email.com
+- paragraph:
+  - text: 🎂
+  - strong: "Idade:"
+  - text: 30 anos
+- paragraph:
+  - text: 🆔
+  - strong: "ID:"
+  - text: 097c11e1-7f65-4c6b-8ea3-16437237684c
+- button "✏️ Editar"
+- button "🗑️ Excluir"
+- heading "👤 Usuário Teste Cancel" [level=3]
+- paragraph:
+  - text: 📧
+  - strong: "Email:"
+  - text: cancel.1751932723607@email.com
+- paragraph:
+  - text: 🎂
+  - strong: "Idade:"
+  - text: 30 anos
+- paragraph:
+  - text: 🆔
+  - strong: "ID:"
+  - text: 09cedd37-8b45-4650-8c65-fa91df88ab4a
+- button "✏️ Editar"
+- button "🗑️ Excluir"
+- heading "👤 Usuário Editado" [level=3]
+- paragraph:
+  - text: 📧
+  - strong: "Email:"
+  - text: editado.1751932727153@email.com
+- paragraph:
+  - text: 🎂
+  - strong: "Idade:"
+  - text: 35 anos
+- paragraph:
+  - text: 🆔
+  - strong: "ID:"
+  - text: 119f8095-d24e-4a4e-84cf-efedc192d652
+- button "✏️ Editar"
+- button "🗑️ Excluir"
+- heading "👤 Usuário Para Deletar" [level=3]
+- paragraph:
+  - text: 📧
+  - strong: "Email:"
+  - text: deletar.1751932727901@email.com
+- paragraph:
+  - text: 🎂
+  - strong: "Idade:"
+  - text: 28 anos
+- paragraph:
+  - text: 🆔
+  - strong: "ID:"
+  - text: 81d3eb43-ea5f-4759-b210-633af33e846d
+- button "✏️ Editar"
+- button "🗑️ Excluir"
+```

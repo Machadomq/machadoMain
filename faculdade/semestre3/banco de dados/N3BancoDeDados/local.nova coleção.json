@@ -1,0 +1,275 @@
+[{
+  "_id": {
+    "$oid": "68697a28c6eac9a01a42f542"
+  },
+  "titulo": "The Dark Side of the Moon",
+  "artista": "Pink Floyd",
+  "anoLancamento": 1989,
+  "generos": [
+    "Rock Progressivo",
+    "Rock Psicodélico"
+  ],
+  "formato": "Vinil",
+  "gravadora": "Harvest Records",
+  "urlCapa": "https://upload.wikimedia.org/wikipedia/en/3/3b/Dark_Side_of_the_Moon.png",
+  "adicionadoEm": {
+    "$date": "2024-05-17T18:00:00.000Z"
+  },
+  "faixas": [
+    {
+      "numero": 1,
+      "titulo": "Speak to Me",
+      "duracao_segundos": 67,
+      "compositores": [
+        "Nick Mason"
+      ]
+    },
+    {
+      "numero": 2,
+      "titulo": "Breathe (In the Air)",
+      "duracao_segundos": 163,
+      "compositores": [
+        "Roger Waters",
+        "David Gilmour",
+        "Richard Wright"
+      ]
+    },
+    {
+      "numero": 3,
+      "titulo": "On the Run",
+      "duracao_segundos": 216,
+      "compositores": [
+        "David Gilmour",
+        "Roger Waters"
+      ]
+    },
+    {
+      "numero": 4,
+      "titulo": "Time",
+      "duracao_segundos": 421,
+      "compositores": [
+        "David Gilmour",
+        "Nick Mason",
+        "Roger Waters",
+        "Richard Wright"
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64fcf001a3a6b9241c123450"
+  },
+  "titulo": "Clube da Esquina",
+  "artista": "Milton Nascimento & Lô Borges",
+  "anoLancamento": 1972,
+  "generos": [
+    "MPB",
+    "Rock Progressivo",
+    "Samba"
+  ],
+  "formato": "Vinil",
+  "gravadora": "EMI",
+  "urlCapa": "https://upload.wikimedia.org/wikipedia/pt/6/67/Clube_da_Esquina_-_Milton_Nascimento_e_L%C3%B4_Borges.jpg",
+  "adicionadoEm": {
+    "$date": "2024-06-01T12:00:00.000Z"
+  },
+  "faixas": [
+    {
+      "numero": 1,
+      "titulo": "Cravo e Canela",
+      "duracao_segundos": 217,
+      "compositores": [
+        "Milton Nascimento",
+        "Lô Borges"
+      ]
+    },
+    {
+      "numero": 2,
+      "titulo": "Nada Será Como Antes",
+      "duracao_segundos": 260,
+      "compositores": [
+        "Milton Nascimento",
+        "Lô Borges"
+      ]
+    },
+    {
+      "numero": 3,
+      "titulo": "Paisagem da Janela",
+      "duracao_segundos": 280,
+      "compositores": [
+        "Lô Borges"
+      ]
+    },
+    {
+      "numero": 4,
+      "titulo": "Um Girassol da Cor do Seu Cabelo",
+      "duracao_segundos": 320,
+      "compositores": [
+        "Milton Nascimento"
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64fce601a3a6b9241c123457"
+  },
+  "titulo": "Acabou Chorare",
+  "artista": "Novos Baianos",
+  "anoLancamento": 1972,
+  "generos": [
+    "MPB",
+    "Samba Rock",
+    "Tropicália"
+  ],
+  "formato": "Vinil",
+  "gravadora": "Som Livre",
+  "urlCapa": "https://upload.wikimedia.org/wikipedia/pt/2/20/Acabou_Chorare.jpg",
+  "adicionadoEm": {
+    "$date": "2024-06-02T12:00:00.000Z"
+  },
+  "faixas": [
+    {
+      "numero": 1,
+      "titulo": "Preta Pretinha",
+      "duracao_segundos": 210,
+      "compositores": [
+        "Baby Consuelo",
+        "Pepeu Gomes"
+      ]
+    },
+    {
+      "numero": 2,
+      "titulo": "Mistério do Planeta",
+      "duracao_segundos": 215,
+      "compositores": [
+        "Baby Consuelo",
+        "Pepeu Gomes"
+      ]
+    },
+    {
+      "numero": 3,
+      "titulo": "Besta É Tu",
+      "duracao_segundos": 250,
+      "compositores": [
+        "Baby Consuelo"
+      ]
+    },
+    {
+      "numero": 4,
+      "titulo": "Brasil Pandeiro",
+      "duracao_segundos": 230,
+      "compositores": [
+        "Assis Valente"
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64fce701a3a6b9241c123458"
+  },
+  "titulo": "Elis & Tom",
+  "artista": "Elis Regina & Tom Jobim",
+  "anoLancamento": 1974,
+  "generos": [
+    "Bossa Nova",
+    "MPB"
+  ],
+  "formato": "CD",
+  "gravadora": "Philips",
+  "urlCapa": "https://upload.wikimedia.org/wikipedia/pt/0/01/Elis_Tom.jpg",
+  "adicionadoEm": {
+    "$date": "2024-06-03T12:00:00.000Z"
+  },
+  "faixas": [
+    {
+      "numero": 1,
+      "titulo": "Aguas de Março",
+      "duracao_segundos": 140,
+      "compositores": [
+        "Tom Jobim"
+      ]
+    },
+    {
+      "numero": 2,
+      "titulo": "Corcovado",
+      "duracao_segundos": 170,
+      "compositores": [
+        "Tom Jobim"
+      ]
+    },
+    {
+      "numero": 3,
+      "titulo": "Modinha",
+      "duracao_segundos": 210,
+      "compositores": [
+        "Tom Jobim"
+      ]
+    },
+    {
+      "numero": 4,
+      "titulo": "Que Maravilha",
+      "duracao_segundos": 230,
+      "compositores": [
+        "Tom Jobim",
+        "Gilberto Gil"
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64fce801a3a6b9241c123459"
+  },
+  "titulo": "Tropicália ou Panis et Circenses",
+  "artista": "Various Artists",
+  "anoLancamento": 1968,
+  "generos": [
+    "Tropicália",
+    "MPB",
+    "Psychedelic Rock"
+  ],
+  "formato": "Vinil",
+  "gravadora": "Philips",
+  "urlCapa": "https://upload.wikimedia.org/wikipedia/pt/e/e3/Tropicalia.jpg",
+  "adicionadoEm": {
+    "$date": "2024-06-04T12:00:00.000Z"
+  },
+  "faixas": [
+    {
+      "numero": 1,
+      "titulo": "Panis et Circenses",
+      "duracao_segundos": 300,
+      "compositores": [
+        "Gilberto Gil",
+        "Caetano Veloso"
+      ]
+    },
+    {
+      "numero": 2,
+      "titulo": "Baby",
+      "duracao_segundos": 180,
+      "compositores": [
+        "Caetano Veloso"
+      ]
+    },
+    {
+      "numero": 3,
+      "titulo": "Tropicália",
+      "duracao_segundos": 230,
+      "compositores": [
+        "Caetano Veloso"
+      ]
+    },
+    {
+      "numero": 4,
+      "titulo": "Coração Materno",
+      "duracao_segundos": 240,
+      "compositores": [
+        "Gilberto Gil"
+      ]
+    }
+  ]
+}]

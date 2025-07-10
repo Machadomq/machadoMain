@@ -1,0 +1,40 @@
+
+Não todos tem necessariamente uma ordem
+
+
+Iniciar o servidor
+npm start
+
+Executar todos os testes funcionais
+npm test
+
+Executar em modo visual (ver os testes rodando)
+npx playwright test --ui
+
+Executar apenas em um browser(chrome)
+npx playwright test --project=chromium
+
+1. Iniciar Grafana e InfluxDB
+docker-compose up -d
+
+2. Acessar dashboard
+ URL: http://localhost:3002
+ Login: admin
+ Senha: admin
+
+Executar teste de carga
+k6 run k6-tests.js
+
+
+Testar GET (listar usuários)
+curl http://localhost:3001/api/users
+
+Testar POST (criar usuário)
+curl -X POST http://localhost:3001/api/users -H "Content-Type: application/json" -d "{\"name\":\"Maria\",\"email\":\"maria@email.com\"}"
+
+Testar PUT (atualizar usuário - substitua ID)
+curl -X PUT http://localhost:3001/api/users/1 -H "Content-Type: application/json" -d "{\"name\":\"Maria Silva\",\"email\":\"maria.silva@email.com\"}"
+
+Testar DELETE (excluir usuário - substitua ID)
+curl -X DELETE http://localhost:3001/api/users/1
+
